@@ -18,7 +18,11 @@ _Note: Keep categorising & prioritising & pruning this list_
 - 
 - https://pkg.go.dev/golang.org/x/mod@v0.14.0/modfile
 - https://go.googlesource.com/vuln/+/refs/tags/v1.0.1/scan/scan.go
+- https://github.com/siderolabs/kres/tree/main
+- https://github.com/bracesdev/errtrace
+- https://github.com/canonical/chisel/tree/main
 - 
+- https://github.com/GoogleContainerTools/container-structure-test/tree/main/pkg/drivers
 - https://github.com/testcontainers
 - https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - https://github.com/runfinch/finch
