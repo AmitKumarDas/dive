@@ -26,3 +26,9 @@ _Note: Keep categorising & prioritising & pruning this list_
 - https://github.com/testcontainers
 - https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - https://github.com/runfinch/finch
+
+### Say No to:
+- Just utils
+  - This repo focusses on learning few concepts really well
+  - Utils if any will be limited to be child docs of these concepts
+- .MD files with go snippets
