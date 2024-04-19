@@ -10,9 +10,10 @@ Dive into a project & learn in the process
 ### How
 - Verify public APIs/SDKs using Golang's example_test.go
 - Verify public APIs/SDKs using Golang's testing.T & other standard test packages
-- Verify running the projects via containers
+- Verify running the projects via containers, unikernels, etc.
 
 ### Tools to `Build`, `Test` & `Run`
+- https://github.com/runfinch/finch
 - https://github.com/testcontainers/testcontainers-go
 - Lima
 - Buildkit
@@ -38,3 +39,6 @@ _Note: Keep categorising & prioritising & pruning this list_
 - https://github.com/testcontainers
 - https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - https://github.com/runfinch/finch
+
+### Summary
+Given my interest areas, one may find me `building`, `testing` & `running` a project X using project X
