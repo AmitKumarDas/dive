@@ -4,12 +4,12 @@ Reshape a project & learn in the process
 ### What
 - Create project specific folders
 - Start with projects that are used across e.g. containerd, runc, etc
-- Try re-designing these projects based on your experience
-- Redesign is an exercise to dive deep into the internals of the project
+- Try these projects based on your innovations
+- Trying is an exercise to dive deep into the internals of the project
 
 ### How
-- Start with folder structures
-- Add .go files
+- Verify public APIs/SDKs using Golang's example_test.go
+- &/ Verify usage using https://github.com/testcontainers/testcontainers-go
 
 ### I will spend my time here & put forth my thoughts:
 _Note: Keep categorising & prioritising & pruning this list_
