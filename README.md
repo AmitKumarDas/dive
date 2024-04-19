@@ -10,6 +10,7 @@ Dive into a project & learn in the process
 ### How
 - Verify public APIs/SDKs using Golang's example_test.go
 - Verify public APIs/SDKs using Golang's testing.T & other standard test packages
+- refer: https://go.googlesource.com/vuln/+/refs/tags/v1.0.1/all_test.go
 - Verify running the projects via containers, unikernels, etc.
 
 ### Tools to `Build`, `Test` & `Run`
