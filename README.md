@@ -1,12 +1,8 @@
 # Whiteboarding
 This is a means to shape your designs before building them
 
-### Levels
-- Level 1 or L1 is meant for beginners
-- Higher levels are meant for readers with advanced knowledge of specific categories
-
 ### Tags
-- These are few categories I will be brainstorming about:
+- These are categories I am interested in:
   - BUILD, PACKAGE, TEST, RELEASE, CONTAINERS
 
 ### I will spend my time here & put forth my thoughts:
@@ -14,6 +10,7 @@ _Note: Keep categorising & prioritising & pruning this list_
 
 - https://github.com/unikraft/kraftkit/tree/staging
 - https://github.com/opencontainers/runc/tree/main
+- https://github.com/containerd/nerdctl/releases
 - https://github.com/vmware/vic
 - 
 - https://pkg.go.dev/golang.org/x/mod@v0.14.0/modfile
@@ -28,7 +25,6 @@ _Note: Keep categorising & prioritising & pruning this list_
 - https://github.com/runfinch/finch
 
 ### Say No to:
-- Just utils
+- utils, awesome snippets, etc.
   - This repo focusses on learning few concepts really well
   - Utils if any will be limited to be child docs of these concepts
-- .MD files with go snippets
