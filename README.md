@@ -9,8 +9,7 @@ Dive into a project & learn in the process
 
 ### How
 - Verify public APIs/SDKs using Golang's example_test.go
-- Verify public APIs/SDKs using Golang's testing.T & other standard test packages
-- refer: https://go.googlesource.com/vuln/+/refs/tags/v1.0.1/all_test.go
+- Verify public APIs/SDKs using Golang's testing.T & other standard packages
 - Verify running the projects via containers, unikernels, etc.
 
 ### Tools to `Build`, `Test` & `Run`
@@ -20,7 +19,9 @@ Dive into a project & learn in the process
 - Buildkit
 - Dagger e.g. https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - unikraft / kraftkit?
-- testing.T, custom assertions & others
+- testing.T, custom assertions & other standard golang packages/APIs
+- refer: https://go.googlesource.com/vuln/+/refs/tags/v1.0.1/all_test.go
+- use: os.ExpandEnv
 
 ### I will spend my time in learning following projects:
 _Note: Keep categorising & prioritising & pruning this list_
