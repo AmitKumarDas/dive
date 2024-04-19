@@ -1,9 +1,15 @@
 # Whiteboarding
-This is a means to shape your designs before building them
+Reshape a project & learn in the process
 
-### Tags
-- These are categories I am interested in:
-  - BUILD, PACKAGE, TEST, RELEASE, CONTAINERS
+### What
+- Create project specific folders
+- Start with projects that are used across e.g. containerd, runc, etc
+- Try re-designing these projects based on your experience
+- Redesign is an exercise to dive deep into the internals of the project
+
+### How
+- Start with folder structures
+- Add .go files
 
 ### I will spend my time here & put forth my thoughts:
 _Note: Keep categorising & prioritising & pruning this list_
@@ -23,8 +29,3 @@ _Note: Keep categorising & prioritising & pruning this list_
 - https://github.com/testcontainers
 - https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - https://github.com/runfinch/finch
-
-### Say No to:
-- utils, awesome snippets, etc.
-  - This repo focusses on learning few concepts really well
-  - Utils if any will be limited to be child docs of these concepts
