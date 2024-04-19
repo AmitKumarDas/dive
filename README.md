@@ -1,17 +1,26 @@
-# Whiteboarding
-Reshape a project & learn in the process
+# dive
+Dive into a project & learn in the process
 
 ### What
 - Create project specific folders
 - Start with projects that are used across e.g. containerd, runc, etc
-- Try these projects based on your innovations
-- Trying is an exercise to dive deep into the internals of the project
+- Verify these projects based on your techniques
+- Verifying is an exercise to dive deep into the internals of the project
 
 ### How
 - Verify public APIs/SDKs using Golang's example_test.go
-- &/ Verify usage using https://github.com/testcontainers/testcontainers-go
+- Verify public APIs/SDKs using Golang's testing.T & other standard test packages
+- Verify running the projects via containers
 
-### I will spend my time here & put forth my thoughts:
+### Tools to `Build`, `Test` & `Run`
+- https://github.com/testcontainers/testcontainers-go
+- Lima
+- Buildkit
+- Dagger e.g. https://github.com/dagger/dagger/tree/main/examples/sdk/go
+- unikraft / kraftkit?
+- testing.T, custom assertions & others
+
+### I will spend my time in learning following projects:
 _Note: Keep categorising & prioritising & pruning this list_
 
 - https://github.com/unikraft/kraftkit/tree/staging
