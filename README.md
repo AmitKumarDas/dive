@@ -2,25 +2,31 @@
 Dive in a project by redoing its build, test & run parts. Learn the project in the process.
 
 ### what & how
-- Create project specific folders e.g. dive_xxx where xxx is the actual project
-- dive_xxx is configured with .gitmodules pointing to xxx
-- refer: https://github.com/runfinch/finch-core
-- refer: https://github.com/runfinch/finch
-- Verify these projects based on your techniques
-- Your techniques may vary e.g.
+- Create project specific folders
+- For example, `dive_xxx` where xxx is the actual project
+- dive_xxx is configured with `.gitmodules` pointing to xxx
+  - refer: https://github.com/runfinch/finch-core
+  - refer: https://github.com/runfinch/finch
+- Similarly, `dive_containers` can replicate `testcontainers` model of testing the published containers
+  - refer: https://github.com/testcontainers/testcontainers-go/tree/main/modules
+- On the whole, verify these projects with your own innovative techniques
+- Your techniques may vary
+- For example, you may use either or all of the below approaches to dive into a project:
   - use of golang code,
   - use of testcontainers,
   - use of bakefile (from makers of docker),
   - use of unikernels,
   - & so on.
-- Verifying is an exercise to dive deep into the internals of the project
 
-### shortlisted projects
+Note that verifying is an exercise to dive deep into the internals of the project
+
+### dive in these projects
 - finch
 - containerd
 - buildkit
 - unikraft / kraftkit?
-- dagger e.g. https://github.com/dagger/dagger/tree/main/examples/sdk/go
+- dagger; start with https://github.com/dagger/dagger/tree/main/examples/sdk/go
+- testcontainers; start with https://github.com/testcontainers/testcontainers-go/tree/main/modules
 
 ### project list
 _Note: Keep categorising & prioritising & pruning this list_
