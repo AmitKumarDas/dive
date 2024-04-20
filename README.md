@@ -22,6 +22,8 @@ Note that verifying is an exercise to dive deep into the internals of the projec
 
 ### dive in these projects
 - finch
+- https://github.com/lima-vm/lima
+- runc
 - containerd
 - buildkit
 - unikraft / kraftkit?
@@ -52,3 +54,6 @@ _Note: Keep categorising & prioritising & pruning this list_
 
 ### Summary
 Given my interest areas, one may find me `building`, `testing` & `running` a project X using project X
+
+### Similarity
+I think it will be `finch` & `lima` the hard way
