@@ -1,28 +1,28 @@
 # dive
-Dive into a project & learn in the process
+Dive in a project by redoing its build, test & run parts. Learn the project in the process.
 
-### What
-- Create project specific folders
-- Start with projects that are used across e.g. finch, buildkit, containerd, runc, etc
+### what & how
+- Create project specific folders e.g. dive_xxx where xxx is the actual project
+- dive_xxx is configured with .gitmodules pointing to xxx
+- refer: https://github.com/runfinch/finch-core
+- refer: https://github.com/runfinch/finch
 - Verify these projects based on your techniques
+- Your techniques may vary e.g.
+  - use of golang code,
+  - use of testcontainers,
+  - use of bakefile (from makers of docker),
+  - use of unikernels,
+  - & so on.
 - Verifying is an exercise to dive deep into the internals of the project
 
-### How
-- Verify public APIs/SDKs using Golang's example_test.go
-- Verify public APIs/SDKs using Golang's testing.T & other standard packages
-- Verify running the projects via lima, containers, unikernels, etc.
-
-### Now
-- Start with https://github.com/runfinch/finch
-- Finch might help you learn nerdctl + Buildkit + containerd + runc
-- Try experimenting / redoing finch via functional options pattern
-- Apply unit testing, testcontainers whereever possible
-
-### Later
+### shortlisted projects
+- finch
+- containerd
+- buildkit
 - unikraft / kraftkit?
-- Dagger e.g. https://github.com/dagger/dagger/tree/main/examples/sdk/go
+- dagger e.g. https://github.com/dagger/dagger/tree/main/examples/sdk/go
 
-### Interesting Project List
+### project list
 _Note: Keep categorising & prioritising & pruning this list_
 
 - https://github.com/testcontainers/testcontainers-go
