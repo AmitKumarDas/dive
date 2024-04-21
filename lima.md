@@ -1,9 +1,9 @@
 ## lima learnings
 
 ### downloads & digests - practices / 21-APR-2024
-- entities: arch, digest, location
-- praise: Attempting to download
-- praise: the way path is defined
+- design: entities: arch, digest, location
+- design: log: Attempting to download
+- design: path: see below logs on how `location` is defined
 ```sh
 INFO[0000] Attempting to download the nerdctl archive
 arch=aarch64
