@@ -21,11 +21,14 @@ Dive in a project by redoing its build, test & run parts. Learn the project in t
 Note that verifying is an exercise to dive deep into the internals of the project
 
 ### dive in these projects
-- finch
+- https://github.com/runfinch/finch-core
+- https://github.com/runfinch/finch
 - https://github.com/lima-vm/lima
 - runc
 - containerd
 - buildkit
+- https://github.com/abiosoft/colima
+- https://github.com/rancher-sandbox/rancher-desktop/
 - unikraft / kraftkit?
 - dagger; start with https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - testcontainers; start with https://github.com/testcontainers/testcontainers-go/tree/main/modules
