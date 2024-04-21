@@ -1,6 +1,6 @@
 ## lima learnings
 
-### contributing
+#### contributing guidelines
 ```yaml
 - atomic commits only
 - mandatory commit label: `lima`
