@@ -29,6 +29,7 @@ Note that verifying is an exercise to dive deep into the internals of the projec
 - unikraft / kraftkit?
 - dagger; start with https://github.com/dagger/dagger/tree/main/examples/sdk/go
 - testcontainers; start with https://github.com/testcontainers/testcontainers-go/tree/main/modules
+- https://github.com/siderolabs/talos
 
 ### project list
 _Note: Keep categorising & prioritising & pruning this list_
@@ -40,6 +41,7 @@ _Note: Keep categorising & prioritising & pruning this list_
 - https://github.com/opencontainers/runc/tree/main
 - https://github.com/containerd/nerdctl/releases
 - https://github.com/vmware/vic
+- https://github.com/siderolabs/talos
 - 
 - https://pkg.go.dev/golang.org/x/mod@v0.14.0/modfile
 - https://go.googlesource.com/vuln/+/refs/tags/v1.0.1/scan/scan.go
