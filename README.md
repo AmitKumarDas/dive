@@ -1,5 +1,9 @@
 # dive
-Dive in a project by redoing its build, test & run parts. Learn the project in the process.
+- Dive in specific projects by redoing its build, test & run parts
+- Learn the project in the process
+- The list of projects is limited
+
+Note: Only the projects that give a better `DevEx` to `build`, `test` & `run` any software projects of the world
 
 ### what & how
 - Create project specific folders
