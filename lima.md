@@ -1,5 +1,12 @@
 ## lima learnings
 
+### contributing
+```yaml
+- atomic commits only
+- mandatory commit label: `lima`
+- additional commit labels: `runbook`, `fix`, `doc`
+```
+
 ### downloads & digests - practices / 21-APR-2024
 ```yaml
 - design: entities: arch, digest, location
