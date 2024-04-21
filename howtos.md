@@ -1,4 +1,13 @@
-#### how to do xxx
+## how to do xxx
+
+#### contributing guidelines
+```yaml
+- atomic commits only
+- mandatory commit label: `howto`
+- additional commit labels: `doc`
+```
+
+#### How to __
 ```yaml
 - download: # http, cache, digest
   - https://github.com/lima-vm/lima/blob/master/pkg/downloader/downloader.go
