@@ -24,19 +24,24 @@ Note: Only the projects that give a better `DevEx` to `build`, `test` & `run` an
 
 Note that verifying is an exercise to dive deep into the internals of the project
 
-### dive in these projects
+### prioritised / dive in these projects
+- https://github.com/abiosoft/colima
+- https://github.com/lima-vm/lima
+- https://github.com/testcontainers/testcontainers-go/tree/main/modules
+- 
+- # reflect back before trying further #
+- 
+- https://github.com/containerd/containerd
+- runc
 - https://github.com/runfinch/finch-core
 - https://github.com/runfinch/finch
-- https://github.com/lima-vm/lima
-- runc
-- containerd
-- buildkit
+- 
+- # reflect back before trying further #
+- 
 - https://github.com/abiosoft/colima
-- https://github.com/rancher-sandbox/rancher-desktop/
+- https://github.com/dagger/dagger/tree/main/examples/sdk/go
+- buildkit
 - unikraft / kraftkit?
-- dagger; start with https://github.com/dagger/dagger/tree/main/examples/sdk/go
-- testcontainers; start with https://github.com/testcontainers/testcontainers-go/tree/main/modules
-- https://github.com/siderolabs/talos
 
 ### project list
 _Note: Keep categorising & prioritising & pruning this list_
