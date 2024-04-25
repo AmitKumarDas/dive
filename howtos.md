@@ -14,3 +14,8 @@
 - archive:
   - https://github.com/goreleaser/goreleaser/tree/main/pkg/archive
 ```
+
+#### References
+```yaml
+- https://github.com/goreleaser/goreleaser
+```
