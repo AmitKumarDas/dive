@@ -33,8 +33,11 @@ funcUnderTest: WithFileForPublish(
 // - usage: i.downloadFile is better named than i.fileDownload
 // - usage: i.downloadFile reflects the file to download
 // - usage: i.fileDownload refects a function instead of an attribute
-// - field: downloadFile is better in terms of naming
-// - function: fileDownload is better in terms of naming
+// - field: downloadFile is better named;  defines the file to download
+// - function: fileDownload is better named; implies download action
+// - struct: fileDownloadSpecs is better named; defines specs to download a file
+// - naming: last part of the name majorly defines the target i.e. variable, function, or struct
+// - E.g: fileDownload vs downloadFile vs fileDownloadSpecs
 
 fmt.Errorf(
   "entity_name/action_name/nested_entity_name: failed to download abc file, relative_path=%q: %w",
