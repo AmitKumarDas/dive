@@ -52,7 +52,8 @@ fmt.Errorf(
 // - e.g. bwartifact.FileKindImage is readable & understood
 // - e.g. bwartifact.FileImage is readable as well
 // - e.g. bwartifact.Image is readable, but can lead to more than one interpretation
-// - e.g. bwartifact.KindImage is readable, but can be erroneous if there are more than one kind in bwartifact package
+// - e.g. bwartifact.KindImage is readable, but can be erroneous
+// - Since bwartifact.KindImage becomes tricky if there are more than one kind in bwartifact package
 
 // supported file types
 var (
@@ -63,4 +64,18 @@ var (
   fileKindYAML     = fileKind{"yaml"}
   fileKindJSON     = fileKind{"json"}
 )
+```
+
+```go
+// Notes:
+// - struct: action comes before entity while naming a struct
+// - field: action comes before entity while naming the field
+
+var file = PublishedFile{
+  Status:          PublishStatusFail,
+  FileKind:        nonImgOpts.kind,
+  Source:          nonImgOpts.downloadFile,
+  PublishFilePath: nonImgOpts.publishFilePath,
+  PublishFileName: nonImgOpts.publishFileName,
+}
 ```
