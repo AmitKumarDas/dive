@@ -27,3 +27,19 @@ funcUnderTest: WithFileForPublish(
   },
 ),
 ```
+
+```go
+// Notes:
+// - usage: i.downloadFile is better named than i.fileDownload
+// - usage: i.downloadFile reflects the file to download
+// - usage: i.fileDownload refects a function instead of an attribute
+// - field: downloadFile is better in terms of naming
+// - function: fileDownload is better in terms of naming
+
+fmt.Errorf(
+  "entity_name/action_name/nested_entity_name: failed to download abc file, relative_path=%q: %w",
+  i.downloadFile,
+  downloadErr,
+)
+```
+
