@@ -46,3 +46,21 @@ fmt.Errorf(
 )
 ```
 
+```go
+// Maintainer Notes:
+// - If fileKind is ever made public, readers should be able to understand the intent
+// - e.g. bwartifact.FileKindImage is readable & understood
+// - e.g. bwartifact.FileImage is readable as well
+// - e.g. bwartifact.Image is readable, but can lead to more than one interpretation
+// - e.g. bwartifact.KindImage is readable, but can be erroneous if there are more than one kind in bwartifact package
+
+// supported file types
+var (
+  fileKindNA       = fileKind{} // Acts as the sentinel value
+  fileKindImage    = fileKind{"image"}
+  fileKindNonImage = fileKind{"non-image"} // represents non images s.a. binary, yaml, json, text, etc.
+  fileKindBinary   = fileKind{"binary"}
+  fileKindYAML     = fileKind{"yaml"}
+  fileKindJSON     = fileKind{"json"}
+)
+```
