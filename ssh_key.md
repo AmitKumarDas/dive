@@ -47,8 +47,11 @@ Identity added: /Users/xxx/.ssh/id_rsa (xxx@xxx-a01.sss.com)
 ## Convert key to pem
 - refer: https://gist.github.com/phrfpeixoto/8b04a2516ec559eddbfe7520ddde9ad2
 ```sh
-# convert
-$ ssh-keygen -f ~/.ssh/id_rsa.pub -e -m PKCS8 > id_rsa.pem.pub
+# To encrypt files, we can use openssl rsa library
+# By default, ssh-keygen generates key in OpenSSH format that is not very friendly to openssl
+# It needs some before processing
+# Transform the public key into PKCS8 format
+$ ssh-keygen -f ~/.ssh/id_rsa.pub -e -m PKCS8 > id_rsa.pub.pem
 
 # Use the public pem file to encrypt a string
 echo "sometext" | openssl rsautl -encrypt -pubin -inkey ~/id_rsa.pub.pem > ~/encrypted.txt
@@ -56,6 +59,12 @@ echo "sometext" | openssl rsautl -encrypt -pubin -inkey ~/id_rsa.pub.pem > ~/enc
 # Or a file
 cat ~/some_file.txt | openssl rsautl -encrypt -pubin -inkey ~/id_rsa.pub.pem > ~/encrypted.txt
 
+# Or
+openssl rsautl -encrypt -pubin -inkey id_rsa.pub.pkcs8 -in LoveLetter.txt -out LoveLetter.txt.enc
+
 # To decrypt, you'll need the private key
 cat ~/encrypted.txt | openssl rsautl -decrypt -inkey path/to/id_rsa > ~/decrypted.txt
+
+# Or
+openssl rsautl -decrypt -ssl -inkey id_rsa.pub.pkcs8 -in LoveLetter.txt.enc -out LoveLetter.txt
 ```
